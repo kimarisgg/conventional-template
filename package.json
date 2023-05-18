@@ -1,0 +1,23 @@
+{
+    "name": "conventional-template",
+    "version": "1.0.0",
+    "description": "Just another NodeJS project template",
+    "author": "Klöen Lansfiel <kloen@kloenlansfiel.com>",
+    "license": "Unlicense",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kimarisgg/conventional-template.git"
+    },
+    "scripts": {
+        "prepare": "husky install",
+        "prettier:run": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^17.6.3",
+        "@commitlint/config-conventional": "^17.6.3",
+        "husky": "^8.0.3",
+        "prettier": "^2.8.8",
+        "pretty-quick": "^3.1.3"
+    }
+}
